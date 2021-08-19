@@ -1,6 +1,13 @@
 .rightSidebar{
-    width: 33.3%;    
+    width: 23.3%;    
     display: flex;
     justify-content: center;
 
+}
+.search-input{
+    width: 50%;
+    height: 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color:#EFF3F4
 }

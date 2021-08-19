@@ -9,10 +9,6 @@ import { ReactComponent as More } from "../Icons/more.svg";
 import { ReactComponent as Profile } from "../Icons/profile.svg";
 import { ReactComponent as Bell } from "../Icons/bell.svg";
 
-
-
-
-
 function LeftSidebar() {
   return (
     <div className="leftSidebar">
@@ -20,35 +16,36 @@ function LeftSidebar() {
         <a>
           <TwitterLogo className="icon"></TwitterLogo>
         </a>
+        
+        <a>Home</a>
         <a>
-            Home</a>
+          <Hashtag className="icon"></Hashtag>
+          Explore
+        </a>
         <a>
-        <Hashtag className="icon"></Hashtag>
-            
-             Explore</a>
-        <a> 
-        <Bell className="icon"></Bell>
-            
-            Notifications</a>
+          <Bell className="icon"></Bell>
+          Notifications
+        </a>
         <a>
-        <Letter className="icon"></Letter>
-
-             Messages</a>
+          <Letter className="icon"></Letter>
+          Messages
+        </a>
         <a>
-        <Bookmark className="icon"></Bookmark>
-            Bookmarks</a>
+          <Bookmark className="icon"></Bookmark>
+          Bookmarks
+        </a>
         <a>
-        <List className="icon"></List>
-            
-             Lists</a>
-        <a> 
-        <Profile className="icon"></Profile>
-            
-            Profile</a>
+          <List className="icon"></List>
+          Lists
+        </a>
         <a>
-        <More className="icon"></More>
-            
-            More</a>
+          <Profile className="icon"></Profile>
+          Profile
+        </a>
+        <a>
+          <More className="icon"></More>
+          More
+        </a>
       </nav>
     </div>
   );
