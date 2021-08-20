@@ -13,36 +13,36 @@ function LeftSidebar() {
   return (
     <div className="leftSidebar">
       <nav>
-        <a>
+        <a href="/#">
           <TwitterLogo className="icon"></TwitterLogo>
         </a>
         
-        <a>Home</a>
-        <a>
+        <a href="/#">Home</a>
+        <a href="/#">
           <Hashtag className="icon"></Hashtag>
           Explore
         </a>
-        <a>
+        <a href="/#">
           <Bell className="icon"></Bell>
           Notifications
         </a>
-        <a>
+        <a href="/#">
           <Letter className="icon"></Letter>
           Messages
         </a>
-        <a>
+        <a href="/#">
           <Bookmark className="icon"></Bookmark>
           Bookmarks
         </a>
-        <a>
+        <a href="/#">
           <List className="icon"></List>
           Lists
         </a>
-        <a>
+        <a href="/#">
           <Profile className="icon"></Profile>
           Profile
         </a>
-        <a>
+        <a href="/#">
           <More className="icon"></More>
           More
         </a>

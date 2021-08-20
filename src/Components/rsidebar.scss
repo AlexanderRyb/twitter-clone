@@ -1,13 +1,25 @@
 .rightSidebar{
-    width: 23.3%;    
+    width: 20%;    
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    border: 1px solid grey;
 
 }
 .search-input{
-    width: 50%;
-    height: 20px;
+    width: 80%;
+    height: 40px;
     border-style: none;
     border-radius: 20px;
     background-color:#EFF3F4
+}
+.trends-block{
+    background-color:#EFF3F4;
+    width: 100%;
+    height: auto;
+}
+.trend{
+    width: 100%;
+    background-color:#EFF3F4;
+
 }
