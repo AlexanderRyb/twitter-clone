@@ -47,6 +47,9 @@ function LeftSidebar() {
           More
         </a>
       </nav>
+      <button>
+        Tweet
+      </button>
     </div>
   );
 }
