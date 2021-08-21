@@ -11,7 +11,22 @@ function Feed(){
     </div>
     <div className="tweets-block">
     <div className="tweet">
-
+     <h2>User name</h2>
+     <p>@accountname</p>
+     <p>Tweet text</p>
+     <p>reply</p>
+     <p>retweet</p>
+     <p>like</p>
+     <p>share</p>
+    </div>
+    <div className="tweet">
+     <h2>User name</h2>
+     <p>@accountname</p>
+     <p>Tweet text</p>
+     <p>reply</p>
+     <p>retweet</p>
+     <p>like</p>
+     <p>share</p>
     </div>
     </div>
 </div>
