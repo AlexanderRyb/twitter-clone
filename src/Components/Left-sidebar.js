@@ -8,6 +8,7 @@ import { ReactComponent as List } from "../Icons/list.svg";
 import { ReactComponent as More } from "../Icons/more.svg";
 import { ReactComponent as Profile } from "../Icons/profile.svg";
 import { ReactComponent as Bell } from "../Icons/bell.svg";
+import { ReactComponent as Home } from "../Icons/home.svg";
 
 function LeftSidebar() {
   return (
@@ -16,8 +17,11 @@ function LeftSidebar() {
         <a href="/#">
           <TwitterLogo className="icon"></TwitterLogo>
         </a>
-        
-        <a href="/#">Home</a>
+
+        <a href="/#">
+        <Home className="icon"></Home>
+          Home
+        </a>
         <a href="/#">
           <Hashtag className="icon"></Hashtag>
           Explore
@@ -47,9 +51,7 @@ function LeftSidebar() {
           More
         </a>
       </nav>
-      <button>
-        Tweet
-      </button>
+      <button>Tweet</button>
     </div>
   );
 }
