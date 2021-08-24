@@ -6,6 +6,8 @@
     border-right: 1px solid grey;
     box-sizing: border-box;
     flex-wrap: wrap;
+    align-content: flex-start;
+
 
 }
 .home-block{
@@ -14,13 +16,35 @@
     border: 1px solid rgb(235, 232, 232);
     display: flex;
     flex-direction: row;
-    
+    }
 
-}
 .home-block>h1{
     width: 15%;
 }
-.tweet-block{
+.tweets-block{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid blue;
+}
+.new-tweet-block{
+    width: 100%;
+    height: 100px;
+    border: 1px solid green;
+}
+.tweet{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.profile-pic-block{
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+.tweet-content-block{
+    width: 85%;
+    height: 100%;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import './feed.scss';
+import { ReactComponent as Profile } from "../Icons/profile.svg";
+
 function Feed(){
     return(
 <div className="Feed">
@@ -11,23 +13,23 @@ function Feed(){
     </div>
     <div className="tweets-block">
     <div className="tweet">
-     <h2>User name</h2>
-     <p>@accountname</p>
-     <p>Tweet text</p>
+        <div className="profile-pic-block">
+        <Profile></Profile>
+        </div>
+        <div className="tweet-content-block">
+
+        <h3 className="user-name">John Smith</h3>
+     <p className="account-name">@accountname</p>
+
+     <p className="tweet-text">Tweet text lorem ipsum</p>
+
      <p>reply</p>
      <p>retweet</p>
      <p>like</p>
      <p>share</p>
+        </div>   
     </div>
-    <div className="tweet">
-     <h2>User name</h2>
-     <p>@accountname</p>
-     <p>Tweet text</p>
-     <p>reply</p>
-     <p>retweet</p>
-     <p>like</p>
-     <p>share</p>
-    </div>
+   
     </div>
 </div>
     )
