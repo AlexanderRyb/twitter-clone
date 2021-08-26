@@ -1,5 +1,7 @@
 import React from 'react'
 import './feed.scss';
+import { ReactComponent as MoreAlt } from "../Icons/more-alt.svg";
+
 
 function Feed(){
     return(
@@ -18,8 +20,9 @@ function Feed(){
         </div>
         <div className="tweet-content-block">
 
-        <h3 className="user-name">John Smith</h3>
+        <h4 className="user-name">John Smith</h4>
      <p className="account-name">@accountname</p>
+     <MoreAlt className="icon"></MoreAlt>
 
      <p className="tweet-text">Tweet text lorem ipsum</p>
 

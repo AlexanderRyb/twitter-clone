@@ -25,7 +25,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid blue;
 }
 .new-tweet-block{
     width: 100%;
@@ -41,10 +40,19 @@
     flex-wrap: wrap;
 
 }
+.user-name{
+    width: 40%;
+}
+.account-name{
+    width: 40%;
+}
 .profile-pic-block{
     width: 10%;
     height: 100%;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 .profile-pic{
     background: url(../Icons/profile.jpeg);
@@ -56,4 +64,5 @@
 .tweet-content-block{
     width: 85%;
     height: 100%;
+    display: flex;
 }

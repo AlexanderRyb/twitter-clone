@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid grey;
+    margin-left: 20px;
 
 }
 .search-input{
@@ -13,17 +13,22 @@
     border-radius: 20px;
     background-color:#EFF3F4;
     margin-bottom: 5px;
+    padding-left: 10px;
 }
 .trends-block{
     background-color:#EFF3F4;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10%;
     margin-bottom: 20px;
+}
+.trends-block>h1{
+    width: 85%;
 }
 .trend{
     width: 100%;
-    background-color:#EFF3F4;
 
 }
 .trend>h1{
