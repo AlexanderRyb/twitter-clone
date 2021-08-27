@@ -40,11 +40,22 @@
     flex-wrap: wrap;
 
 }
+.tweet-data{
+    width: 100%;
+    display: flex;
+}
 .user-name{
-    width: 40%;
+    width: max-content;
 }
 .account-name{
-    width: 40%;
+    width: auto;
+}
+.time-stamp{
+    width: auto;
+}
+.tweet-text{
+    width: 100%;
+    text-align: start;
 }
 .profile-pic-block{
     width: 10%;
@@ -65,4 +76,11 @@
     width: 85%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+.tweet-actions{
+    display: flex;
+}
+.more-icon{
+    margin-left: auto;
 }
