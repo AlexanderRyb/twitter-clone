@@ -1,6 +1,11 @@
 import React from "react";
 import "./feed.scss";
 import { ReactComponent as MoreAlt } from "../Icons/more-alt.svg";
+import { ReactComponent as Reply } from "../Icons/reply.svg";
+import { ReactComponent as Retweet } from "../Icons/retweet.svg";
+import { ReactComponent as Like } from "../Icons/like.svg";
+import { ReactComponent as Share } from "../Icons/share.svg";
+
 
 function Feed() {
   return (
@@ -28,10 +33,11 @@ function Feed() {
             <p className="tweet-text">Tweet text lorem ipsum</p>
 
             <div className="tweet-actions">
-              <p>reply</p>
-              <p>retweet</p>
-              <p>like</p>
-              <p>share</p>
+              <Reply className="icon"></Reply>
+              <Retweet className="icon"></Retweet>
+              <Like className="icon"></Like>
+              <Share className="icon"></Share>
+             
             </div>
           </div>
         </div>

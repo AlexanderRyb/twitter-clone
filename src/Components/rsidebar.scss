@@ -7,32 +7,62 @@
 
 }
 .search-input{
-    width: 80%;
+    width: 100%;
     height: 40px;
     border-style: none;
     border-radius: 20px;
     background-color:#EFF3F4;
     margin-bottom: 5px;
+    margin-top: 5px;
     padding-left: 10px;
 }
+.search-input:focus{
+    outline: none;
+    border: 1px solid #1D9BF0;
+}
 .trends-block{
-    background-color:#EFF3F4;
+    background-color:#F7F9F9;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 20px;
     margin-bottom: 20px;
+}
+.trends-heading{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .trends-block>h1{
     width: 85%;
 }
 .trend{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.trend:hover{
+    background-color: #EFF1F1;
 }
 .trend>h1{
     font-size: 20px;
+}
+.trend-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.trend-name, .retweet-number{
+    width: 100%;
+    margin-left: 10px;
+
+    text-align: start;
 }
 .follow-block{
     background-color:#EFF3F4;

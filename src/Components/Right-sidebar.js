@@ -2,6 +2,8 @@ import React from 'react'
 import './rsidebar.scss'
 //import { ReactComponent as Search } from "../Icons/search.svg";
 import { ReactComponent as Settings } from "../Icons/settings.svg";
+import { ReactComponent as More } from "../Icons/more-alt.svg";
+
 
 
 function RightSidebar(){
@@ -10,27 +12,34 @@ function RightSidebar(){
 <input type="text" placeholder="Search Twitter" className="search-input">
 </input>
 <div className="trends-block">
-<h1>Trends</h1>
+    <div className="trends-heading">
+    <h1>Trends</h1>
 <Settings className="icon"></Settings>
+    </div>
+
 <div className="trend">
-<p>Politics Trending</p>
-<h2>#China</h2>
-<p>18.1K Tweets</p>
+    <div className="trend-row">
+    <p>1·Trending</p>
+<More className="icon"></More>
+    </div>
+<h3 className="trend-name">#China</h3>
+<p className="retweet-number">18.1K Tweets</p>
 </div>
 <div className="trend">
-<p>Politics Trending</p>
-<h2>#Telegram</h2>
-<p>293K Tweets</p>
+    <div className="trend-row">
+    <p>2·Football·Trending</p>
+<More className="icon"></More>
+    </div>
+<h3 className="trend-name">Arsenal</h3>
+<p className="retweet-number">1.05M Tweets</p>
 </div>
 <div className="trend">
-<p>Politics Trending</p>
-<h2>#Telegram</h2>
-<p>293K Tweets</p>
-</div>
-<div className="trend">
-<p>Politics Trending</p>
-<h2>#Telegram</h2>
-<p>293K Tweets</p>
+    <div className="trend-row">
+    <p>3·Sports·Trending</p>
+<More className="icon"></More>
+    </div>
+<h3 className="trend-name">Ronaldo</h3>
+<p className="retweet-number">1.1M Tweets</p>
 </div>
 </div>
 
