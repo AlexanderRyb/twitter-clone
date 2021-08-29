@@ -41,10 +41,52 @@ function RightSidebar(){
 <h3 className="trend-name">Ronaldo</h3>
 <p className="retweet-number">1.1M Tweets</p>
 </div>
+<div className="trend">
+    <div className="trend-row">
+    <p>4·Trending</p>
+<More className="icon"></More>
+    </div>
+<h3 className="trend-name">Kanye</h3>
+<p className="retweet-number">2.1M Tweets</p>
+</div>
+<div className="trend">
+    <div className="trend-row">
+    <p>5·Sports·Trending</p>
+<More className="icon"></More>
+    </div>
+<h3 className="trend-name">Liverpool</h3>
+<p className="retweet-number">300K Tweets</p>
+</div>
 </div>
 
 <div className="follow-block">
 <h1 className="follow-block-header">Who to follow</h1>
+<div className="follow">
+<div className="profile-pic"></div>
+<div className="follow-name">
+<div className="name">Adam Smith</div>
+<div className="account-name">@AdamSmith</div>
+</div>
+<button className="follow-button">
+    Follow
+</button>
+
+<div>
+</div>
+</div>
+<div className="follow">
+<div className="profile-pic"></div>
+<div className="follow-name">
+<div className="name">Adam Smith</div>
+<div className="account-name">@AdamSmith</div>
+</div>
+<button className="follow-button">
+    Follow
+</button>
+
+<div>
+</div>
+</div>
 <div className="follow">
 <div className="profile-pic"></div>
 <div className="follow-name">

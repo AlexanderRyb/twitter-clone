@@ -43,13 +43,16 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+
 
 }
 .trend:hover{
     background-color: #EFF1F1;
 }
-.trend>h1{
-    font-size: 20px;
+.trend>h3{
+    font-size: 18px;
+    font-weight: 600;
 }
 .trend-row{
     display: flex;
@@ -74,6 +77,7 @@
 }
 .follow{
     display: flex;
+    margin-bottom: 20px;
 }
 .follow-block-header{
     width: 100%;
