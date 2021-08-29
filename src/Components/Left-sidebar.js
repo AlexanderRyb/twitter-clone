@@ -51,7 +51,7 @@ function LeftSidebar() {
           More
         </a>
       </nav>
-      <button>Tweet</button>
+      <button className="left-button">Tweet</button>
     </div>
   );
 }

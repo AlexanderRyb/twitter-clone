@@ -5,6 +5,11 @@ import { ReactComponent as Reply } from "../Icons/reply.svg";
 import { ReactComponent as Retweet } from "../Icons/retweet.svg";
 import { ReactComponent as Like } from "../Icons/like.svg";
 import { ReactComponent as Share } from "../Icons/share.svg";
+import { ReactComponent as Media} from "../Icons/media.svg"
+import { ReactComponent as Gif} from "../Icons/gif.svg"
+import { ReactComponent as Poll} from "../Icons/poll.svg"
+import { ReactComponent as Emoji} from "../Icons/emoji.svg"
+import { ReactComponent as Schedule} from "../Icons/schedule.svg"
 
 
 function Feed() {
@@ -15,6 +20,16 @@ function Feed() {
       </div>
       <div className="new-tweet-block">
         <div className="profile-pic"></div>
+        <div className="new-tweet-text">What's happening?</div>
+        <div className="new-tweet-action-block">
+<Media className="icon blue"></Media>
+<Gif className="icon blue"></Gif>
+<Poll className="icon blue"></Poll>
+<Emoji className="icon blue"></Emoji>
+<Schedule className="icon blue"></Schedule>
+
+        </div>
+        <button>Tweet</button>
       </div>
       <div className="tweets-block">
         <div className="tweet">

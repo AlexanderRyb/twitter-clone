@@ -44,10 +44,18 @@ function RightSidebar(){
 </div>
 
 <div className="follow-block">
-<h1>Who to follow</h1>
+<h1 className="follow-block-header">Who to follow</h1>
 <div className="follow">
+<div className="profile-pic"></div>
+<div className="follow-name">
+<div className="name">Adam Smith</div>
+<div className="account-name">@AdamSmith</div>
+</div>
+<button className="follow-button">
+    Follow
+</button>
+
 <div>
-    <p>icon</p>
 </div>
 </div>
 </div>

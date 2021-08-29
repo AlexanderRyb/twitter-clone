@@ -15,17 +15,21 @@ nav{
 }
 a{
     text-align: start;
-    border-radius: 50%;
+    border-radius: 25px;
     margin-top: 5px;
     font-size: 26px;
     width: 100%;
     text-decoration: none;
     padding-bottom: 10px;
+    padding-left: 10px;
 
     
 }
 a, a:visited, a:hover, a:active {
     color: inherit;
+  }
+  a:hover{
+      background-color: #E7E7E8;
   }
  
 .icon{
@@ -33,10 +37,10 @@ a, a:visited, a:hover, a:active {
     margin-right: 10px;
 
 }
-button{
+.left-button{
     border-radius: 20px;
     border-style: none;
-    background-color: rgb(20, 138, 218);
+    background-color: #1D9BF0;
     color: white;
     margin-top: 20px;
     width: 60%;
