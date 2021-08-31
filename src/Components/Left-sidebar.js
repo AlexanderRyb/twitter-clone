@@ -14,44 +14,45 @@ function LeftSidebar() {
   return (
     <div className="leftSidebar">
       <nav>
-        <a href="/#">
-          <TwitterLogo className="icon"></TwitterLogo>
+        <a className="twitter-icon" href="/#">
+          <TwitterLogo className="icon" ></TwitterLogo>
         </a>
 
-        <a href="/#">
-        <Home className="icon"></Home>
-          Home
+        <a className="nav-element" href="/#">
+          <Home className="icon"></Home>
+          <div>Home</div>
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <Hashtag className="icon"></Hashtag>
           Explore
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <Bell className="icon"></Bell>
           Notifications
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <Letter className="icon"></Letter>
           Messages
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <Bookmark className="icon"></Bookmark>
           Bookmarks
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <List className="icon"></List>
           Lists
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <Profile className="icon"></Profile>
           Profile
         </a>
-        <a href="/#">
+        <a className="nav-element" href="/#">
           <More className="icon"></More>
           More
         </a>
+        <button className="left-button">Tweet</button>
+
       </nav>
-      <button className="left-button">Tweet</button>
     </div>
   );
 }

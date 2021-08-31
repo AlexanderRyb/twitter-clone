@@ -26,10 +26,10 @@ function Feed() {
 <Gif className="icon blue"></Gif>
 <Poll className="icon blue"></Poll>
 <Emoji className="icon blue"></Emoji>
-<Schedule className="icon blue"></Schedule>
+<Schedule className="icon blue schedule"></Schedule>
 
         </div>
-        <button>Tweet</button>
+        <button className="tweet-button">Tweet</button>
       </div>
       <div className="tweets-block">
         <div className="tweet">
