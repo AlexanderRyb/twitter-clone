@@ -56,6 +56,30 @@ function Feed() {
             </div>
           </div>
         </div>
+        <div className="tweet">
+          <div className="profile-pic-block">
+            <div className="profile-pic"></div>
+          </div>
+          <div className="tweet-content-block">
+              <div className="tweet-data">
+              <h4 className="user-name">John Smith</h4>
+            <p className="account-name">@accountname ·</p>
+            <p className="time-stamp">14m</p>
+            <MoreAlt className="icon more-icon"></MoreAlt>
+              </div>
+         
+
+            <p className="tweet-text">Tweet text lorem ipsum</p>
+
+            <div className="tweet-actions">
+              <Reply className="icon"></Reply>
+              <Retweet className="icon"></Retweet>
+              <Like className="icon"></Like>
+              <Share className="icon"></Share>
+             
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

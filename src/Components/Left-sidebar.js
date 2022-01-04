@@ -14,13 +14,13 @@ function LeftSidebar() {
   return (
     <div className="leftSidebar">
       <nav>
-        <a className="twitter-icon" href="/#">
+        <a className="nav-element" href="/#">
           <TwitterLogo className="icon" ></TwitterLogo>
         </a>
 
         <a className="nav-element" href="/#">
           <Home className="icon"></Home>
-          <div>Home</div>
+          Home
         </a>
         <a className="nav-element" href="/#">
           <Hashtag className="icon"></Hashtag>
