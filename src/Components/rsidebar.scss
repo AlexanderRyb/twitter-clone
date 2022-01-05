@@ -99,6 +99,9 @@
 .name, .account-name{
     font-size: 15px;
 }
+.account-name{
+    color:rgb(83, 100, 113)
+}
 .follow-button{
     color: white;
     font-size: 18px;
@@ -110,5 +113,20 @@
     margin-left: auto;
 }
 footer{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    clear: both;
+
+    font-size: 13px;
+    color: rgb(83, 100, 113);
+}
+footer>p{
+    width: fit-content;
+    margin-right: 6px;
+}
+footer>p:hover{
+    text-decoration: underline;
+
 }

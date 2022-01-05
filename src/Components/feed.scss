@@ -108,6 +108,11 @@
   display: flex;
   justify-content: space-around;
 }
+
+.new-tweet-action-block>.icon:hover{
+background-color: #E8F5FD;
+border-radius: 10px;
+}
 .more-icon {
   margin-left: auto;
 }
